@@ -1,0 +1,10 @@
+Input:tmp\tmp
+Input full path:D:\PycharmProjects\Multimodal emotion\tmp\tmp
+Camera parameters:1312.5,1312.5,960,540
+Output csv:tmp.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

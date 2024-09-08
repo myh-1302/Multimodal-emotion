@@ -1,0 +1,41 @@
+{
+    "audio": {
+      "tool": "librosa",
+      "sample_rate": 16000,
+      "hop_length":400,
+      "features": {
+        "mfcc": {
+          "n_mfcc": 29,
+          "htk": true
+        },
+        "rms": {},
+        "zero_crossing_rate": {},
+        "spectral_rolloff": {},
+        "spectral_centroid": {}
+      }
+    },
+    "video": {
+      "tool": "openface",
+      "fps": 33,
+      "average_over": 8,
+      "args": {
+        "hogalign": false,
+        "simalign": false,
+        "nobadaligned": false,
+        "landmark_2D": true,
+        "landmark_3D": true,
+        "pdmparams": true,
+        "head_pose": true,
+        "action_units": true,
+        "gaze": true,
+        "tracked": false
+      }
+    },
+    "text": {
+      "model": "bert",
+      "device": "cpu",
+      "pretrained": "model\\bert-base-chinese",
+      "features": {
+      }
+    }
+ }
